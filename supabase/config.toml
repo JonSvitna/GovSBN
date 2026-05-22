@@ -1,3 +1,4 @@
+# Replace with your real Supabase project ref before deploy.
 project_id = "your-project-ref"
 
 [api]
@@ -25,7 +26,7 @@ port = 54324
 enabled = true
 site_url = "http://localhost:3000"
 additional_redirect_urls = [
-  "https://govsbn.vercel.app"
+  "https://your-vercel-app.vercel.app"
 ]
 jwt_expiry = 3600
 enable_signup = true
