@@ -1,4 +1,4 @@
-project_id = "govsbn"
+project_id = "your-project-ref"
 
 [api]
 enabled = true
@@ -25,7 +25,6 @@ port = 54324
 enabled = true
 site_url = "http://localhost:3000"
 additional_redirect_urls = [
-  "https://*.vercel.app",
   "https://govsbn.vercel.app"
 ]
 jwt_expiry = 3600
@@ -34,4 +33,4 @@ enable_signup = true
 [auth.email]
 enable_signup = true
 double_confirm_changes = true
-enable_confirmations = false
+enable_confirmations = true

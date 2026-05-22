@@ -30,7 +30,7 @@ supabase link --project-ref <your-project-ref>
 supabase db push
 ```
 
-Auth is enabled in `supabase/config.toml` with email sign-up enabled.
+Auth is enabled in `supabase/config.toml` with email sign-up enabled and email confirmation required.
 
 ## Frontend deploy on Vercel
 
@@ -40,4 +40,4 @@ Auth is enabled in `supabase/config.toml` with email sign-up enabled.
    - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
 3. Deploy.
 
-> Update `supabase/config.toml` `site_url` and `additional_redirect_urls` to your final Vercel URL.
+> Update `supabase/config.toml` `project_id`, `site_url`, and `additional_redirect_urls` to your actual project values.
