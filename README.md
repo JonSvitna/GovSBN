@@ -11,7 +11,8 @@ SBN rework V1
 
 This repository now includes a `supabase/config.toml` so Supabase is already bootstrapped.
 
-Before running the steps below, update `supabase/config.toml` `project_id`, `auth.site_url`, and
+Before running the steps below, update `supabase/config.toml` `project_id`, `site_url` in the
+`[auth]` section, and
 `additional_redirect_urls` to your actual project values.
 
 1. Install Supabase CLI.
